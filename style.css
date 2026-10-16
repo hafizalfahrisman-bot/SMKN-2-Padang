@@ -1,0 +1,22 @@
+:root{--biru:#0b3d91;--emas:#f5b301;--gelap:#082a66}
+body{font-family:'Poppins',sans-serif;color:#333}
+.navbar{background:var(--gelap)}
+.navbar .nav-link{color:#dbe6ff;font-weight:500}
+.navbar .nav-link:hover,.navbar .nav-link.active{color:var(--emas)}
+.brand-logo{width:40px;height:40px;border-radius:50%;background:var(--emas);color:var(--gelap);display:inline-flex;align-items:center;justify-content:center;font-weight:700;margin-right:10px}
+.hero{background:linear-gradient(120deg,rgba(8,42,102,.92),rgba(11,61,145,.75)),url('img/sekolah.jpg') center/cover,var(--biru);color:#fff;padding:110px 0}
+.hero h1{font-weight:700}
+.page-head{background:linear-gradient(120deg,var(--gelap),var(--biru));color:#fff;padding:60px 0}
+.btn-emas{background:var(--emas);color:var(--gelap);font-weight:600;border:0}
+.btn-emas:hover{background:#ffc933}
+.judul{font-weight:700;color:var(--biru);position:relative;padding-bottom:10px;margin-bottom:30px}
+.judul::after{content:"";position:absolute;left:0;bottom:0;width:60px;height:4px;background:var(--emas);border-radius:2px}
+.card-hover{border:0;border-radius:14px;box-shadow:0 4px 16px rgba(0,0,0,.08);transition:.25s;overflow:hidden}
+.card-hover:hover{transform:translateY(-6px);box-shadow:0 10px 24px rgba(0,0,0,.15)}
+.thumb{height:170px;background:linear-gradient(135deg,var(--biru),#3a7bd5);display:flex;align-items:center;justify-content:center;color:#fff;font-size:3rem}
+.ikon{width:76px;height:76px;border-radius:50%;background:#eaf0ff;color:var(--biru);display:flex;align-items:center;justify-content:center;font-size:2.2rem;margin:0 auto 14px}
+.stat{background:var(--emas);color:var(--gelap);border-radius:14px;padding:20px;text-align:center;font-weight:700}
+.stat span{font-size:2rem;display:block}
+footer{background:var(--gelap);color:#c9d6f5;padding:40px 0 15px}
+footer a{color:var(--emas);text-decoration:none}
+.timeline{border-left:4px solid var(--emas);padding-left:20px}
